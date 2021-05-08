@@ -4,9 +4,9 @@ Wordpress thema voor Kunst atelier schiermonnikoog
 
 Thema heeft bepaalde paginas nodig met deze exacte namen
 
-Contact
+Contact  
 Dit word in de footer weer gegeven
 
-Quote
+Quote  
 Dit word op de voorpagina gebruikt
 
