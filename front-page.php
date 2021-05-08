@@ -1,16 +1,6 @@
 <?php get_header(); ?>
 
 <div class="full-image" style="background-image: url('<?php echo get_stylesheet_directory_uri(); ?>/images/hero-image.jpg')" >
-<div class="quote" style="background-image: url('<?php echo get_stylesheet_directory_uri(); ?>/images/canvas.jpg')">
-
-<?php
-    $your_query = new WP_Query( 'pagename=Quote' );
-    while ( $your_query->have_posts() ) : $your_query->the_post();
-        the_content();
-    endwhile;
-    wp_reset_postdata();
-?>
-</div>
 </div>
 
 
@@ -38,5 +28,16 @@ schelpjes en stukjes barnsteen.<br> De buurvrouw van “Kadootje van Schier” m
 dat zijn? Dat is niet helemaal uit te leggen, gewoon komen kijken dus.<br> In de Bus!<br>
 
 </div>
+<div class="quote">
+        <?php
 
+        $your_query = new WP_Query( 'pagename=Quote' );
+        
+        while ( $your_query->have_posts() ) : $your_query->the_post();
+                the_content();
+        endwhile;
+
+        wp_reset_postdata();
+        ?>
+</div>
 <?php get_footer(); ?>

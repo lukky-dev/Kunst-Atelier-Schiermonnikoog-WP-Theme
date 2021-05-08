@@ -231,27 +231,12 @@ header .header-menu a:hover{
 }
 
 .quote{
-    display: inline-block;
-    
-    margin: 260px 10vw 160px;
-
-    max-width: max-content;
-    
-    padding: 6vh;
-
-    text-align: left;
-
-    line-height: 50px;
-    font-size:xx-large;
-    
-    box-shadow: 0px 5px 10px rgba(0,0,0,0.6);
-    background-size: 460px;
-    border-radius: 6px;
-
-    opacity: 1;
-    
+    text-align: center;
+    font-size: x-large;
     font-family: 'Caveat', cursive;
-    transform: rotate(-7deg);
+    background:#aaa;
+    color:#eee;
+    padding: 80px 0;
 }
 
 @media only screen and (max-width: 680px) {
@@ -326,14 +311,7 @@ header .header-menu a:hover{
     }
     
     .quote{
-        min-height: 40vh;
-        position: relative;
-        display: inline-block;
-        font-size:larger;
-        padding: 40px 40px;
-        margin: 120px 0px -260px;
-        line-height: 30px;
-        transform: rotate(0deg);
+
     }
 
     .image-1{
