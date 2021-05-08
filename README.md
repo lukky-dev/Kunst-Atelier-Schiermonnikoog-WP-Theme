@@ -10,3 +10,6 @@ Dit word in de footer weer gegeven
 Quote  
 Dit word op de voorpagina gebruikt
 
+Een pagina met id 57  
+dit is de 2de tekst op de voorpagina en gebruikt daarvan de title 
+

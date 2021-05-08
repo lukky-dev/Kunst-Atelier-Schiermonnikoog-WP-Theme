@@ -18,21 +18,29 @@
 </div>
 
 <div class="wrapper-front">
-        <h1> Het kleinste winkeltje van Schiermonnikoog</h1>
+        <?php
+        
+        $args = array(
+                'p'         => 57, // ID of a page, post, or custom type
+                'post_type' => 'page'
+        );
 
-In de bus hebben we een hoekje ingericht met enorm leuke kadootjes. Ieder souveniertje is uniek en
-gemaakt door eilander handen tijdens lange donkere winters bij de houtkachel.<br>
-Piepkleine schilderijtjes op een ezeltje, notitieblokjes gemaakt van gevonden en gerecycelde frutsels.<br>
-Speciaal voor het kleinste winkeltje heeft “Kadootje van Schier” armbandjes ontworpen met
-schelpjes en stukjes barnsteen.<br> De buurvrouw van “Kadootje van Schier” maakt “Zeepronkjes”.<br> Wat
-dat zijn? Dat is niet helemaal uit te leggen, gewoon komen kijken dus.<br> In de Bus!<br>
+        $your_query = new WP_Query( $args );
+        
+        while ( $your_query->have_posts() ) : $your_query->the_post();
+                the_title('<h1>','</h1>');
 
+                the_content();
+        endwhile;
+
+        wp_reset_postdata();
+        ?>
 </div>
 <div class="quote">
         <?php
 
         $your_query = new WP_Query( 'pagename=Quote' );
-        
+
         while ( $your_query->have_posts() ) : $your_query->the_post();
                 the_content();
         endwhile;
