@@ -12,9 +12,9 @@
 
 
 <div class="triple-image">
-        <div class="image-1" style="background-image: url('<?php echo get_stylesheet_directory_uri(); ?>/images/hero-image.jpg')"></div>
-        <div class="image-2" style="background-image: url('<?php echo get_stylesheet_directory_uri(); ?>/images/hero-image.jpg')"></div>
-        <div class="image-3" style="background-image: url('<?php echo get_stylesheet_directory_uri(); ?>/images/hero-image.jpg')"></div>
+        <div class="image-1" style="background-image: url('<?php echo get_stylesheet_directory_uri(); ?>/images/front-page/front-links.jpg')"></div>
+        <div class="image-2" style="background-image: url('<?php echo get_stylesheet_directory_uri(); ?>/images/front-page/front-center.jpg')"></div>
+        <div class="image-3" style="background-image: url('<?php echo get_stylesheet_directory_uri(); ?>/images/front-page/front-rechts.jpg')"></div>
 </div>
 
 <div class="wrapper-front">

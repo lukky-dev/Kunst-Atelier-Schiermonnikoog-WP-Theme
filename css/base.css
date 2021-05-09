@@ -273,7 +273,7 @@ header .header-menu a:hover{
     }
 
     .wrapper-front{
-        padding: 80px 20px;
+        padding: 60px 20px;
     }
 
     .wrapper-workshop{
@@ -282,11 +282,7 @@ header .header-menu a:hover{
     }
 
     .full-image{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
-        height: 700px;
+        height: 70vh;
     }
     
     header{
