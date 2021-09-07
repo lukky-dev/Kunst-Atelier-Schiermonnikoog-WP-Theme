@@ -22,10 +22,8 @@
                 <h3><?php the_title(); ?></h3>
                 <p>
                     <?php
-
-                    
-                    
-                    the_excerpt(); ?>
+                        the_excerpt(); 
+                    ?>
                 </p>
             </div>
         </div>

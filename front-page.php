@@ -18,15 +18,11 @@
 </div>
 
 <div class="wrapper-front">
+        
         <?php
-        
-        $args = array(
-                'p'         => 57, // ID of a page, post, or custom type
-                'post_type' => 'page'
-        );
+        // !TODO find better way of getting content
+        $your_query = new WP_Query( 'pagename=Het kleinste winkeltje van Schiermonnikoog' );
 
-        $your_query = new WP_Query( $args );
-        
         while ( $your_query->have_posts() ) : $your_query->the_post();
                 the_title('<h1>','</h1>');
 
@@ -38,7 +34,7 @@
 </div>
 <div class="quote">
         <?php
-
+        // !TODO find better way of getting content
         $your_query = new WP_Query( 'pagename=Quote' );
 
         while ( $your_query->have_posts() ) : $your_query->the_post();
@@ -48,4 +44,5 @@
         wp_reset_postdata();
         ?>
 </div>
+
 <?php get_footer(); ?>
