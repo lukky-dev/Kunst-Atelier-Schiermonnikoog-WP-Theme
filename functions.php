@@ -39,13 +39,11 @@ add_action('wp_enqueue_scripts','load_js');
 //loading fonts
 
 function load_fonts(){
-
     wp_enqueue_style( 'google-fonts-indie-flower', 'https://fonts.googleapis.com/css2?family=Caveat&display=swap', false );
     wp_enqueue_style( 'google-fonts-raleway', 'https://fonts.googleapis.com/css2?family=Raleway&display=swap', false );
-    
-   
-   add_action( 'wp_enqueue_scripts', 'google-fonts-indie-flower' );
-   add_action( 'wp_enqueue_scripts', 'google-fonts-raleway' );
+
+    add_action( 'wp_enqueue_scripts', 'google-fonts-indie-flower' );
+    add_action( 'wp_enqueue_scripts', 'google-fonts-raleway' );
 }
 
 add_action('wp_enqueue_scripts','load_fonts');
@@ -58,7 +56,5 @@ register_nav_menus(
         'mobile-menu' => 'Mobile Menu Location',
     )
 );
-
-
 
 ?>

@@ -4,7 +4,7 @@ window.onload = function(){
     getheader();
 }
 
-// header / header toggle button dom element
+// header, header toggle button dom element
 var header,headerButton;
 
 // bool keeping track of header state
