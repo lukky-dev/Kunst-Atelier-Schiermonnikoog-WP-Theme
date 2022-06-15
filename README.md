@@ -10,5 +10,5 @@ Deze tekst word in de footer weer gegeven
 Quote  
 Dit word op de voorpagina gebruikt
 
-Het kleinste winkeltje van Schiermonnikoog
+Het kleinste winkeltje van Schiermonnikoog  
 Deze tekst word op de voorpagina gebruikt
